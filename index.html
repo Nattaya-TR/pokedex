@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+
+<div id="pokedex">
+
+    <!-- the left container -->
+    <div id="left-panel">
+        <div id="top-left"></div>
+        <div id="top-left1">
+            <div id="blue-button">
+                <div id=reflect"></div>
+            </div>
+            <!-- three small light -->
+            <div id="top-buttons">
+                <div id="top-red-button"></div>
+                <div id="top-yellow-button"></div>
+                <div id="top-green-button"></div>
+            </div>
+        </div>
+        <!-- screen part -->
+        <div id="top-left2">
+            <div id="border-screen">
+                <div id="button-top1"></div>
+                <div id="button-top2"></div>
+            </div>
+            <!-- screen -->
+            <div id="screen">
+                <img id="actualEvoImg">
+            </div>
+            <!-- below screen -->
+            <div class="material">
+                <input type="text" name="poke-id" id="poke-id" placeholder="Id or Name">
+            </div>
+            <button type="button" id="run">Search pokemon</button>
+            <div id="display-id">
+                <span id="show-id"></span>
+            </div>
+        </div>
+    </div>
+    <!-- middle -->
+    <div id="middle">
+        <div id="hinge1"></div>
+        <div id="hinge2"></div>
+        <div id="hinge3"></div>
+    </div>
+    <!-- the right container -->
+    <div id="right-panel">
+        <div id="top-right"></div>
+
+        <!-- information screen -->
+        <div id="info-screen">
+
+            <div class="poke">
+                <h4 class="title">
+                    <strong class="name"></strong>
+                </h4>
+            </div>
+        </div>
+        <p class="move" id="move1"></p>
+        <p class="move" id="move2"></p>
+        <p class="move" id="move3"></p>
+        <p class="move" id="move4"></p>
+        <div id="prevEvo">
+            <img id="previousEvoImg">
+            <b><em class="evolutions"></em></b>
+        </div>
+    </div>
+
+</div>
+<script src="pokedex.js"></script>
+
+</body>
+</html>

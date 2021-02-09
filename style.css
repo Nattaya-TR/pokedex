@@ -1,0 +1,345 @@
+
+body {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: url("img/pokedek-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Bookman Old Style", sans-serif;
+}
+
+
+#pokedex {
+    margin: 185px auto auto 25px;
+    width: 850px;
+    height: 500px;
+    padding: 50px;
+}
+
+#left-panel {
+    position: relative;
+    float: left;
+    background-color: #8b0000;
+    height: 500px;
+    width: 425px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    box-shadow: -10px 8px 1px 3px #242424;
+}
+
+#right-panel {
+    position: relative;
+    float: right;
+    background-color: #8b0000;
+    margin-top: 50px;
+    height: 450px;
+    width: 425px;
+    border-bottom-right-radius: 25px;
+    box-shadow: -10px 8px 1px 3px #242424;
+}
+
+#middle {
+    position: absolute;
+    z-index: 150;
+    margin-left: 375px;
+    height: 500px;
+    width: 85px;
+    background: linear-gradient(to right, #4a0101, #8b0000, #4a0101);
+}
+
+#hinge1 {
+    position: absolute;
+    z-index: 20;
+    width: 85px;
+    height: 45px;
+    background: linear-gradient(to right, #4a0101, #8b0000, #4a0101);
+    border-top: solid #4a0101 2px;
+    border-bottom: solid #4a0101 2px;
+}
+
+#hinge2 {
+    position: absolute;
+    z-index: 20;
+    width: 85px;
+    height: 45px;
+    margin-top: 100px;
+    background: linear-gradient(to right, #4a0101, #8b0000, #4a0101);
+    border-top: solid #4a0101 2px;
+    border-bottom: solid #4a0101 2px;
+}
+
+#hinge3 {
+    position: absolute;
+    z-index: 20;
+    width: 85px;
+    height: 45px;
+    margin-top: 400px;
+    background: linear-gradient(to right, #4a0101, #8b0000, #4a0101);
+    border-top: solid #4a0101 2px;
+    border-bottom: solid #4a0101 2px;
+}
+
+#top-left {
+    position: absolute;
+    z-index: 20;
+    width: 400px;
+    height: 75px;
+    background-color: #4a0101;
+    border-top-left-radius: 25px;
+}
+
+#top-left1 {
+    position: absolute;
+    z-index: 110;
+    width: 200px;
+    height: 120px;
+    background-color: #4a0101;
+    margin: 0 auto auto 0;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 75px;
+    box-shadow: -10px 8px 1px 3px #242424;
+}
+
+#blue-button {
+    position: absolute;
+    z-index: 110;
+    width: 75px;
+    height: 75px;
+    background: radial-gradient(#60b7cf, #245c70);
+    border-radius: 50%;
+    margin: 15px auto auto 15px;
+    border-color: #ebf3eb;
+    border-style: solid;
+    border-width: 3px;
+
+}
+
+#top-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px auto 100px 100px;
+}
+
+#top-red-button {
+    z-index: 120;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: radial-gradient(#b55d6b, #ea3f3f);
+}
+
+#top-yellow-button {
+    z-index: 120;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: radial-gradient(#ecd941, #dea32e);
+}
+
+#top-green-button {
+    z-index: 120;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: radial-gradient(#86de65, #2abc0d);
+}
+
+#border-screen {
+    position: absolute;
+    z-index: 100;
+    margin: 150px auto auto 50px;
+    background-color: #919191;
+    width: 275px;
+    height: 170px;
+    border-radius: 20px;
+    box-shadow: -5px 1px 1px black;
+}
+
+#button-top1 {
+    position: absolute;
+    z-index: 110;
+    margin: 4px auto auto 120px;
+    background: radial-gradient(#b55d6b, #ea3f3f);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+#button-top2 {
+    position: absolute;
+    z-index: 110;
+    margin: 4px auto auto 150px;
+    background: radial-gradient(#b55d6b, #ea3f3f);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+#screen {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 110;
+    margin: 175px auto auto 75px;
+    background-color: #ebf3eb;
+    width: 220px;
+    height: 120px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: wheat;
+}
+
+/* search field */
+#poke-id {
+    position: absolute;
+    width: 150px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 350px auto auto 150px;
+    border: 5px solid #919191;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: -5px 1px 1px black;
+    padding-left: 10px;
+}
+
+#run {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 375px auto auto 20px;
+    background: radial-gradient(#60b7cf, #245c70);
+    border-color: #ebf3eb;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: -5px 1px 1px black;
+    cursor: pointer;
+    transition: 100ms;
+    outline: none;
+    font-size: small;
+}
+
+#run:hover {
+    transform: scale(1.2);
+}
+
+#display-id {
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    background-color: #ebf3eb;
+    margin: 410px auto auto 180px;
+    border: 3px solid #2b2626;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: -5px 1px 1px black;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 8px;
+
+}
+
+/* right panel*/
+
+#top-right {
+    position: absolute;
+    z-index: 100;
+    margin: 0 auto auto 200px;
+    background-color: rgb(5 4 4);
+    width: 250px;
+    height: 75px;
+    border-bottom-left-radius: 100px;
+}
+
+#info-screen {
+    position: absolute;
+    width: 275px;
+    height: 50px;
+    background: radial-gradient(#f1f1e1, #ddd870);
+    border: 5px double #031601;
+    margin: 90px auto auto 80px;
+    border-radius: 25px;
+    box-shadow: -5px 1px 1px black;
+    color: #56913a;
+    font-size: 22px;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 25px;
+}
+
+
+#move1 {
+    position: absolute;
+    width: 125px;
+    height: 25px;
+    background: radial-gradient(#60b7cf, #245c70);
+    border: 2px solid #010129;
+    border-radius: 25px;
+    margin: 190px auto auto 80px;
+    box-shadow: -5px 1px 1px black;
+    text-align: center;
+    color: #031601;
+    font-size: 16px;
+    padding: 5px 0 0 0;
+}
+
+#move2 {
+    position: absolute;
+    width: 125px;
+    height: 25px;
+    background: radial-gradient(#60b7cf, #245c70);
+    border: 2px solid #010129;
+    border-radius: 25px;
+    margin: 190px auto auto 250px;
+    box-shadow: -5px 1px 1px black;
+    text-align: center;
+    color: #031601;
+    font-size: 16px;
+    padding: 5px 0 0 0;
+}
+
+#move3 {
+    position: absolute;
+    width: 125px;
+    height: 25px;
+    background: radial-gradient(#60b7cf, #245c70);
+    border: 2px solid #010129;
+    border-radius: 25px;
+    margin: 250px auto auto 80px;
+    box-shadow: -5px 1px 1px black;
+    text-align: center;
+    color: #031601;
+    font-size: 16px;
+    padding: 5px 0 0 0;
+}
+
+#move4 {
+    position: absolute;
+    width: 125px;
+    height: 25px;
+    background: radial-gradient(#60b7cf, #245c70);
+    border: 2px solid #010129;
+    border-radius: 25px;
+    margin: 250px auto auto 250px;
+    box-shadow: -5px 1px 1px black;
+    text-align: center;
+    color: #031601;
+    font-size: 16px;
+    padding: 5px 0 0 0;
+}
+
+#prevEvo {
+    position: absolute;
+    width: 125px;
+    height: 40px;
+    margin: 275px auto auto 170px;
+    text-align: center;
+    color: #031601;
+    font-size: 16px;
+}
