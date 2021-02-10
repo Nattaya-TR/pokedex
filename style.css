@@ -206,6 +206,7 @@ body {
     border-bottom-right-radius: 10px;
     box-shadow: -5px 1px 1px black;
     padding-left: 10px;
+    outline:none;
 }
 
 #run {
@@ -342,4 +343,5 @@ body {
     text-align: center;
     color: #031601;
     font-size: 16px;
+    cursor: pointer;
 }
